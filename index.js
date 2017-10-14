@@ -28,6 +28,8 @@ function prependKitten(array, name) {
   return [name, ...array]
 }
 
-// removeLastKitten()
+function removeLastKitten(array) {
+  return array.slice(0, array.length- 1)
+}
 
 // removeFirstKitten()
