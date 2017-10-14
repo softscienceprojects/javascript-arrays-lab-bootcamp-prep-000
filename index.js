@@ -21,11 +21,11 @@ function destructivelyRemoveFirstKitten(name) {
 }
 
 function appendKitten(array, name) {
-  return [name]
+  return [array, name]
 };
 
 function prependKitten(array, name) {
-  return [name]
+  return [name, array]
 }
 
 function removeLastKitten() {
