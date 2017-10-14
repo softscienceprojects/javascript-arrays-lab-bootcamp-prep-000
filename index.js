@@ -25,7 +25,7 @@ function appendKitten(array, name) {
 };
 
 function prependKitten(array, name) {
-  return [name, ...array]
+  return [name]
 }
 
 function removeLastKitten() {
