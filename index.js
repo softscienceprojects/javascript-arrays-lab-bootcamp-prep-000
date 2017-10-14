@@ -21,6 +21,7 @@ function destructivelyRemoveFirstKitten(name) {
 }
 
 function appendKitten(array, element) {
+  return array.slice(0, array.length- 1) 
   return [element]
 };
 
